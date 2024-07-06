@@ -1,14 +1,10 @@
 
 import Card from "./Parts/cards/Card"
+import ShoppingForm from "./Parts/ShoppingForm"
 
 function App() {
   return (
-    <>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </>
+    <ShoppingForm />
   )
 }
 
