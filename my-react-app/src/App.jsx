@@ -1,10 +1,10 @@
 
 import Card from "./Parts/cards/Card"
-import ShoppingForm from "./Parts/ShoppingForm"
+import ColorPicker from "./Parts/colorPicker/ColorPicker"
 
 function App() {
   return (
-    <ShoppingForm />
+    <ColorPicker />
   )
 }
 
