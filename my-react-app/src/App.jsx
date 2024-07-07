@@ -1,10 +1,10 @@
 
 import Card from "./Parts/cards/Card"
-import ColorPicker from "./Parts/colorPicker/ColorPicker"
+import CarSelector from "./Parts/CarSelector"
 
 function App() {
   return (
-    <ColorPicker />
+    <CarSelector />
   )
 }
 
