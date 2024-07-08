@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 
-function MyComponent() {
+function NamingStuff() {
     const [name, setName] = useState('guest')
     const updateName = () => {
         setName("Big Boss");
@@ -31,4 +31,4 @@ function MyComponent() {
     )
 }
 
-export default MyComponent;
+export default NamingStuff;
