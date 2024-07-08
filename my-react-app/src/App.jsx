@@ -1,10 +1,9 @@
 
-import Card from "./Parts/cards/Card"
-import CarsListMaker from "./Parts/CarsListMaker"
+import ToDoList from "./todoListApp/ToDoList"
 
 function App() {
   return (
-    <CarsListMaker />
+    <ToDoList />
   )
 }
 

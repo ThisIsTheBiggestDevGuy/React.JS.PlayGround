@@ -1,0 +1,113 @@
+/* Body (optional) */
+body {
+    margin: 20px; /* Add some space around the content */
+  }
+  
+  /* Shadowed card */
+  .toDoList {
+    font-family: sans-serif; /* Choose a preferred font family */
+    background-color: #dad8d8; /* White background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 500px; /* Optional maximum width for responsiveness */
+  }
+  
+  /* Heading */
+  h1 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Input field */
+  .addButton,
+  .deleteButton,
+  .moveUpButton,
+  .moveDownButton {
+    /* Base styles for all buttons */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer; /* Indicate clickable elements */
+    transition: background-color 0.2s ease-in-out; /* Smooth transition */
+  }
+  
+  .addButton {
+    background-color: #4CAF50; /* Green for adding tasks */
+    color: white;
+  }
+  
+  .deleteButton {
+    background-color: #f44336; /* Red for deletion */
+    color: white;
+  }
+  
+  .moveUpButton,
+  .moveDownButton {
+    background-color: #cccccc; /* Gray for up/down */
+    color: black;
+  }
+  
+  /* Input field hover effects */
+  .addButton:hover,
+  .deleteButton:hover,
+  .moveUpButton:hover,
+  .moveDownButton:hover {
+    background-color: rgba(0, 0, 0, 0.3); /* More prominent darkening on hover */
+  }
+  
+  /* Input field focus effects */
+  .addButton:focus,
+  .deleteButton:focus,
+  .moveUpButton:focus,
+  .moveDownButton:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 3px rgba(0, 0, 255, 0.5); /* Blue focus indicator */
+  }
+  
+  /* Input field styles */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border for input */
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    transition: border-color 0.2s ease-in-out; /* Smooth transition */
+  }
+  
+  input[type="text"]:hover {
+    border-color: #4CAF50; /* Green border on hover */
+  }
+  
+  input[type="text"]:focus {
+    border-color: #2196F3; /* Blue border on focus */
+  }
+  
+  /* Task list */
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remove default bullet points */
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items horizontally */
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Light border between tasks */
+  }
+  
+  .text {
+    flex-grow: 1; /* Allow text to expand */
+  }
+  
+  /* Button click effects (optional) */
+  .addButton:active,
+  .deleteButton:active,
+  .moveUpButton:active,
+  .moveDownButton:active {
+    background-color: hsl(120, 100%, 70%); /* Slightly darker color on click */
+  }
+  
